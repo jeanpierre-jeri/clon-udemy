@@ -1,0 +1,91 @@
+body {
+  /* background-color: #333; */
+  position: relative;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin-inline: auto;
+}
+
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px;
+}
+
+.nav {
+  /* background-color: #fff; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 0.4em;
+}
+
+.nav__menu-icon {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.nav__logo img {
+  height: 28px;
+}
+
+.nav__icons {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  font-size: 1.3rem;
+}
+.nav__menu {
+  position: absolute;
+  width: 75%;
+  height: 100vh;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav__profile {
+  background-color: rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  gap: 1em;
+}
+
+
+.nav__profile-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, .9);
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav__profile-pic span {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.nav__text {
+  font-size: 1rem;
+}
+
+.nav__text--light {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.nav__links {
+  background-color: #fff;
+}
